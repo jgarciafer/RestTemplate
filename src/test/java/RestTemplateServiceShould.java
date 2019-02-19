@@ -12,7 +12,7 @@ import static org.mockito.Mockito.when;
 @RunWith(MockitoJUnitRunner.class)
 public class RestTemplateServiceShould {
 
-
+    //https://dmunozfer.es/tutorial-jenkins-2-configuracion-pipeline/
     private static final String URL = "http://private-5e839-jonatangarcia.apiary-mock.com/employee/1";
 
     @Mock
