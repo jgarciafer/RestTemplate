@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.is;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class RestTemplateServiceShould {
+public class TestRestemplate {
 
     //https://dmunozfer.es/tutorial-jenkins-2-configuracion-pipeline/
     private static final String URL = "http://private-5e839-jonatangarcia.apiary-mock.com/employee/1";
@@ -27,7 +27,7 @@ public class RestTemplateServiceShould {
         employee = restTemplateService.getOneEmployee();
 
         assertThat(employee.getName(),is(equalTo("Jonatan")));
-        assertThat(employee.getFirstName(),is(equalTo("Garcias")));
+        assertThat(employee.getFirstName(),is(equalTo("Garcia")));
     }
 
     @Test
