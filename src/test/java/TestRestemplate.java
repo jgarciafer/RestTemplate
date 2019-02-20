@@ -27,7 +27,7 @@ public class TestRestemplate {
         employee = restTemplateService.getOneEmployee();
 
         assertThat(employee.getName(),is(equalTo("Jonatan")));
-        assertThat(employee.getFirstName(),is(equalTo("Garcia")));
+        assertThat(employee.getFirstName(),is(equalTo("Garcias")));
     }
 
     @Test
